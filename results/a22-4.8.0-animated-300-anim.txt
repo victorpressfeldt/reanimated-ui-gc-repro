@@ -1,0 +1,28 @@
+arm=animated laps=20 rows=300 settle=5s gc_rn_each_lap=0 animate=1
+start: heap_alloc_kb=33808 pss_kb=88634 views=37
+lap 1: heap_alloc_kb=55703 pss_kb=149169 views=949
+lap 2: heap_alloc_kb=61449 pss_kb=147034 views=37
+lap 3: heap_alloc_kb=67985 pss_kb=167334 views=949
+lap 4: heap_alloc_kb=74150 pss_kb=164338 views=37
+lap 5: heap_alloc_kb=80062 pss_kb=173605 views=949
+lap 6: heap_alloc_kb=86152 pss_kb=181261 views=949
+lap 7: heap_alloc_kb=93859 pss_kb=201273 views=949
+lap 8: heap_alloc_kb=99956 pss_kb=202639 views=949
+lap 9: heap_alloc_kb=106331 pss_kb=209831 views=949
+lap 10: heap_alloc_kb=112016 pss_kb=215327 views=37
+lap 11: heap_alloc_kb=118786 pss_kb=220363 views=37
+lap 12: heap_alloc_kb=122665 pss_kb=229499 views=949
+lap 13: heap_alloc_kb=128770 pss_kb=242375 views=949
+lap 14: heap_alloc_kb=134432 pss_kb=240123 views=37
+lap 15: heap_alloc_kb=142471 pss_kb=255759 views=949
+lap 16: heap_alloc_kb=148590 pss_kb=256890 views=949
+lap 17: heap_alloc_kb=154602 pss_kb=270318 views=949
+lap 18: heap_alloc_kb=160992 pss_kb=268545 views=949
+lap 19: heap_alloc_kb=165292 pss_kb=272913 views=949
+lap 20: heap_alloc_kb=170924 pss_kb=272409 views=37
+animation stopped: heap_alloc_kb=158391 pss_kb=264885 views=36
+after trim-memory RUNNING_CRITICAL + 30 s: heap_alloc_kb=156433 pss_kb=249227 views=36
+round 1, after GC RN runtime [#1 RN gc: typeof gc = function, 26 ms]: heap_alloc_kb=156510 pss_kb=232703 views=36
+round 1, after GC UI runtime [#2 UI gc: typeof gc = function, 5 ms]: heap_alloc_kb=36069 pss_kb=230651 views=36
+round 2, after GC RN runtime [#3 RN gc: typeof gc = function, 26 ms]: heap_alloc_kb=36012 pss_kb=127271 views=36
+round 2, after GC UI runtime [#4 UI gc: typeof gc = function, 6 ms]: heap_alloc_kb=35990 pss_kb=127231 views=36
